@@ -2,17 +2,17 @@
 
 include("../conf/db_connect.php");
 
-function userVerif()
+function userCrea()
 {
     global $conn;
 
-    if (isset($_POST["username"]) && isset($_POST["inputpassword"])) {
+    if (isset($_POST["username"]) && isset($_POST["inputpassword"]) && isset($_POST["nom"]) && isset($_POST["prenom"])) {
 
         // On fait une requête à la bdd, et on stocke le résultat dans $result (sous forme de tableau)
-        $result = $conn->query('SELECT * FROM users WHERE email="' . $_POST["username"] . '" AND password="' . $_POST["inputpassword"] . '";');
+        $conn->query('INSERT INTO ');
 
         // On parcours le tableau $result grâce à fetch_row(), et on le stocke ce résultat dans $row (qui est un tableau lui aussi)
-        $row = $result->fetch_row();
+        
 
         // On vérifie si le tableau $row est vide ( grâce à empty() ) => on vérifie donc si les données (entrées dans le formulaire de connexion) sont présentes dans la bdd
         if (empty($row)) {
@@ -28,4 +28,4 @@ function userVerif()
 }
 
 // On éxécute la fonction de vérification
-userVerif();
+userCrea();

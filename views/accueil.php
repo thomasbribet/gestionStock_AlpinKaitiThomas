@@ -19,11 +19,10 @@
         <div class="col-9 d-flex justify-content-center">
             <p class="text-primary">Mot de passe oublié ?</p>
             <p class="mx-2"> . </p>
-            <p class="text-primary">Créer un compte</p>
+            <a class="text-primary" href="http://localhost/workspace/gestionStock/creation.php">Créer un compte</a>
         </div>
         <p class="text-secondary">&copy;2021</p>
 
     </div>
 
 </main>
-
