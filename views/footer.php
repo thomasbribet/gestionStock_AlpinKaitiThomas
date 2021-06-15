@@ -1,4 +1,4 @@
-<footer class="col-12 d-flex justify-content-center align-items-center bg-secondary text-white" style="height: 10vh;">
+<footer class="col-12 d-flex justify-content-center align-items-center bg-secondary text-white position-fixed bottom-0" style="height: 10vh;">
         <p class="m-0 p-0">RGPD</p>
         <p class="mx-4 m-0 p-0">Conditions générales</p>
         <p class="m-0 p-0">Le développeur à votre service</p>
