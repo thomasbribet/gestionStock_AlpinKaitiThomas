@@ -4,7 +4,7 @@
         <img src="./assets/logo" alt="" style="height: 50%; width: auto;">
         <h1 class="text-center">Connexion</h1>
 
-        <form method="POST" action="http://localhost/workspace/gestionStock/controller/verif.php" class="text-center col-9">
+        <form method="POST" action="<?php echo PATH_MACHINE . 'controller/verif.php' ?>" class="text-center col-9">
             <div class="form-group my-2">
                 <input type="email" class="form-control" name="username" aria-describedby="usernameHelp" placeholder="Adresse email">
             </div>

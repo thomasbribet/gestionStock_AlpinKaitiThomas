@@ -33,3 +33,6 @@ function userVerif()
 
 // On éxécute la fonction de vérification
 userVerif();
+
+
+
