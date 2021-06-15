@@ -16,7 +16,7 @@ function userVerif()
     if (empty($row)) {
         echo "pas ok";
         // si $row est vide, on redirige vers la page d'accueil
-        header("Location: http://localhost/workspace/gestionStock/");
+        header("Location: ../index.php");
     } else {
         echo "ok";
     }
