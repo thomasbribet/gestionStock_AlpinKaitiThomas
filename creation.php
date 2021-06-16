@@ -4,7 +4,7 @@ require_once("./views/header.php");
 
 <div class="col-12 d-flex flex-column justify-content-center align-items-center" style="height: 80vh;">
 
-    <form method="POST" action="http://localhost/workspace/gestionStock/controller/crea.php" class="text-center col-3">
+    <form method="POST" action="./controller/crea.php" class="text-center col-3">
         <div class="form-group my-2">
             <input type="text" class="form-control" name="nom" aria-describedby="usernameHelp" placeholder="Nom">
         </div>

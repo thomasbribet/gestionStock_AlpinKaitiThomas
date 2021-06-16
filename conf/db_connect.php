@@ -13,5 +13,3 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 echo "Connected successfully";
-
-define('PATH_MACHINE', 'http://localhost/workspace/gestionStock/');

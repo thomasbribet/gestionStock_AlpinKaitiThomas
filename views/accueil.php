@@ -4,7 +4,7 @@
         <img src="./assets/logo" alt="" style="height: 50%; width: auto;">
         <h1 class="text-center">Connexion</h1>
 
-        <form method="POST" action="<?php echo PATH_MACHINE . 'controller/verif.php' ?>" class="text-center col-9">
+        <form method="POST" action="./controller/verif.php" class="text-center col-9">
             <div class="form-group my-2">
                 <input type="email" class="form-control" name="username" aria-describedby="usernameHelp" placeholder="Adresse email">
             </div>
@@ -19,7 +19,7 @@
         <div class="col-9 d-flex justify-content-center">
             <p class="text-primary">Mot de passe oublié ?</p>
             <p class="mx-2"> . </p>
-            <a class="text-primary" href="http://localhost/workspace/gestionStock/creation.php">Créer un compte</a>
+            <a class="text-primary" href="./creation.php">Créer un compte</a>
         </div>
         <p class="text-secondary">&copy;2021</p>
 
